@@ -6,7 +6,7 @@ import re
 host = 'www.2baob.com'
 start_url = '/booktxt/25552/'
 sel = selectors.DefaultSelector()
-save_dir = f'{os.path.dirname(__file__)}/回到明朝当王爷_callback'
+save_dir = f'{os.path.dirname(__file__)}/回到明朝当王爷_callbacks'
 chapter_count = None
 saved_count = 0
 finished = False
